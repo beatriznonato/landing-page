@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Caju :tropical_drink:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Description of Challenge :sparkles:
 
-## Available Scripts
+<p>
+  Develop a simple landing page following the [Figma prototype](https://www.figma.com/file/UXNeaMq8u5tgtIos02IaYc/Front-(Sites)?node-id=0%3A1).
+</p>
 
-In the project directory, you can run:
+### User Story
 
-### `npm start`
+As a user
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Can I access the home page and get to know Caju and suggest it to my company;
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Behavior
+#### Component: Banner
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- It must list the images of the offers;
+- When you click on > go to next;
+- When you click on < go to the previous one;
 
-### `npm run build`
+#### Component: Customer list
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- I can see customer list
+Must be responsive:
+- md resolution (900px) with 4 icons per line;
+- sm resolution (600px) with 2 icons per line;
+- xs resolution with 1 icon per line;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Pre Requirements :exclamation:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- It is necessary install [Yarn](https://classic.yarnpkg.com/en/).
+- This project use node version 16.16.0
 
-### `npm run eject`
+## How to Install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To install in developer mode, follow the step-by-step:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+:one: Download the repository on your computer.
+:two: Access the directory where you downloaded this project and run the command below.
+   Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+  $ yarn init -y
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## How to Run :gear:
 
-## Learn More
+Run the project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+ $ yarn start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Is running on http://localhost:3000.
 
-### Code Splitting
+Run the tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+ $ yarn test
+```
 
-### Analyzing the Bundle Size
+### Bonus :star:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Link of the materials I used to make the commit semantically and visually and automatically together with Husky.
 
-### Making a Progressive Web App
+- [Conventional Changelog Commitlint](https://github.com/conventional-changelog/commitlint)
+- [Husky](https://typicode.github.io/husky/#/)
+- [Commitizen](https://github.com/commitizen/cz-cli)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Tutorial: Padronização de commit com (Commitlint, Husky e Commitizen)](https://www.vitordevsp.com.br/post/Padroniza-o-de-commit-com-Commitlint-Husky-e-Commitizen-51b1db492e814a6baf03e62e94bde4c7)
 
-### Advanced Configuration
+### License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+MIT © Beatriz Nonato :woman_technologist:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
