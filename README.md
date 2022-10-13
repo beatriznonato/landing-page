@@ -1,10 +1,10 @@
-# Caju :tropical_drink:
+# Caju :sparkles:
 
-### Description of Challenge :sparkles:
+### Description of Challenge 
 
-<p>
-  Develop a simple landing page following the [Figma prototype](https://www.figma.com/file/UXNeaMq8u5tgtIos02IaYc/Front-(Sites)?node-id=0%3A1).
-</p>
+
+  Develop a simple landing page following the [Figma](https://www.figma.com/file/UXNeaMq8u5tgtIos02IaYc/Front-(Sites)?node-id=0%3A1) prototype.
+
 
 ### User Story
 
@@ -23,6 +23,7 @@ As a user
 #### Component: Customer list
 
 - I can see customer list
+
 Must be responsive:
 - md resolution (900px) with 4 icons per line;
 - sm resolution (600px) with 2 icons per line;
@@ -38,6 +39,7 @@ Must be responsive:
 To install in developer mode, follow the step-by-step:
 
 :one: Download the repository on your computer.
+
 :two: Access the directory where you downloaded this project and run the command below.
    Install dependencies
 
@@ -68,10 +70,8 @@ Link of the materials I used to make the commit semantically and visually and au
 - [Conventional Changelog Commitlint](https://github.com/conventional-changelog/commitlint)
 - [Husky](https://typicode.github.io/husky/#/)
 - [Commitizen](https://github.com/commitizen/cz-cli)
-
 - [Tutorial: Padronização de commit com (Commitlint, Husky e Commitizen)](https://www.vitordevsp.com.br/post/Padroniza-o-de-commit-com-Commitlint-Husky-e-Commitizen-51b1db492e814a6baf03e62e94bde4c7)
 
 ### License
 
 MIT © Beatriz Nonato :woman_technologist:
-
