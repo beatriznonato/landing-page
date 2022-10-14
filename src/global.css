@@ -1,0 +1,22 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+
+    --primary-color: #333333;
+    --second-color: #FFFFFF;
+    --button-color: #E80537;
+}
+
+body {
+    height: 100vh;
+}
+
+#root,
+#root > div{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
