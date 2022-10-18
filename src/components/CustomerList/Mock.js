@@ -1,14 +1,14 @@
 import { buser, dafiti, dengo, gptw, loft, oboticario, olist, rappi } from '../../assets/images'
 
 const images = [
+    olist,
     buser,
-    dafiti,
     dengo,
     gptw,
     loft,
-    oboticario,
-    olist,
-    rappi
+    dafiti,
+    rappi,
+    oboticario
 ]
 
 export default images;
