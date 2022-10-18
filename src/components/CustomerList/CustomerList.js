@@ -5,7 +5,7 @@ import './CustomerList.css'
 const CustomerList = () => {
     return (
         <>
-        <p className='customer__p' >Clientes</p>
+        <h5>Clientes</h5>
         <div className='customer__container'>
             {
                 images.map((img) => (
