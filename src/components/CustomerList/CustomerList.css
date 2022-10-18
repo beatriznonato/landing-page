@@ -1,8 +1,3 @@
-.customer__p{
-    font-size: 24px;
-    font-weight: 300;
-}
-
 .customer__container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -11,3 +6,9 @@
     gap: 15px;
 }
 
+
+@media screen and (max-width: 600px) {
+    .customer__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
