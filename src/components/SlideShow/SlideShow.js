@@ -16,7 +16,7 @@ const zoomOutProperties = {
 const SlideShow = () => {
     return (
       <div className="slide__container">
-        <Zoom {...zoomOutProperties}>
+        <Zoom {...zoomOutProperties} className='slide__zoom'>
           {images.map((each, index) => (
             <img className='slide__image' key={index} src={each} />
           ))}

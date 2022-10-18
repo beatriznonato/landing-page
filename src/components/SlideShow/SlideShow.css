@@ -1,12 +1,11 @@
 @import 'react-slideshow-image/dist/styles.css';
 
 .slide__container{
-    display: inline-block;
-    margin-bottom: 197px;
-    margin-inline: 40px;
-    padding: 5px;
+    display: inline;
 }
 
 .slide__image{
-    margin-left: 185px;
+    object-fit: cover;
+    width: 90%;
+    margin-left: 34px;
 }
