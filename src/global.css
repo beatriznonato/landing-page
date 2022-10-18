@@ -9,8 +9,18 @@ body {
     --third-color: #E80537;
 }
 
-body {
-    height: 100vh;
+h5 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+h5:last-of-type{
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
 }
 
 #root,
