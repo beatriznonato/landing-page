@@ -1,0 +1,13 @@
+.customer__p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.customer__container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    width: 100%;
+    gap: 15px;
+}
+
