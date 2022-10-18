@@ -2,8 +2,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 80px;
     background-color: var(--third-color);
+    padding: 20px;
 }
 
 .footer__span {
