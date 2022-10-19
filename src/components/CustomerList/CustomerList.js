@@ -5,14 +5,14 @@ import './CustomerList.css'
 const CustomerList = () => {
     return (
         <>
-        <h5>Clientes</h5>
-        <div className='customer__container'>
-            {
-                images.map((img) => (
-                    <img src={img} />
-                ))
-            }
-        </div>
+            <h5>Clientes</h5>
+                <div className='customer__container'>
+                     {
+                        images.map((img) => (
+                            <img src={img} alt='logo lista clientes'/>
+                        ))
+                    }
+                </div>
         </>
       
     )
