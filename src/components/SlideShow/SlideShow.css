@@ -1,11 +1,76 @@
 @import 'react-slideshow-image/dist/styles.css';
 
-.slide__container{
-    display: inline;
+.nav {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--primary-color);
+    background: none;
+    border: none;
 }
 
-.slide__image{
-    object-fit: cover;
-    width: 90%;
-    margin-left: 34px;
+.slide__container .nav[data-type=prev] {
+   transform: rotate(180deg);
+    left: -35px;
+    padding: 0;
+}
+
+.slide__container .nav[data-type=next] {
+    right: -35px;
+    padding: 0;
+}
+
+.slide__container {
+    max-width: 569px;
+    margin: 0 auto;
+}
+
+.slide__container ul.indicators li {
+    width: 17px;
+    height: 17px;
+    padding: 0 5px;
+}
+
+.slide__container ul.indicators .each-slideshow-indicator.active:before {
+    background-color: var(--third-color);
+}
+
+.slide__container ul.indicators .each-slideshow-indicator:before {
+    width: 17px;
+    height: 17px;
+    border-radius: 0;
+    background-color: var(--second-color);
+}
+
+.slide__container ul.indicators .each-slideshow-indicator.active {
+  opacity: 1;
+}
+
+.slide__container ul.indicators .each-slideshow-indicator {
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .slide__image {
+        width: 100%;
+    }
+
+    .nav{
+        font-size: 22px;
+    }
+
+    .slide__container .nav[data-type=prev] {
+        left: -25px;
+    }
+     
+     .slide__container .nav[data-type=next] {
+        right: -25px;
+    }
+
+    .slide__container ul.indicators .each-slideshow-indicator:before {
+        width: 11px;
+        height: 11px;
+    }
 }
