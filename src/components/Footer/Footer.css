@@ -10,17 +10,23 @@
     font-size: 0.9rem;
     margin-right: 15px;
     font-weight: 400;
-    color: var(--second-color);
+    color: #FFF;
 }
 
 .footer__icon {
     margin: 3px;
-    color: var(--second-color);
+    color: #FFF;
     vertical-align: middle;
 }
 
-.footer__a{
+.footer__a {
     text-decoration: none;
     cursor: pointer;
-    color: var(--second-color);
+    color: #FFF;
+}
+
+@media screen and (max-width: 600px) {
+    .footer__span {
+        font-size: 0.8rem;
+    }
 }
